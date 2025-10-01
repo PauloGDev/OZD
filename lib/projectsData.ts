@@ -150,7 +150,7 @@ export const projectsData = [
     category: "Branding & Conteúdo Digital",
     cover: "/images/projetos/servpro/image (1).jpg",
     gallery: Array.from(
-      { length: 9 },
+      { length: 30 },
       (_, i) => `/images/projetos/servpro/image (${i + 1}).jpg`
     ),
   },
@@ -208,6 +208,20 @@ export const projectsData = [
     gallery: Array.from(
       { length: 5 },
       (_, i) => `/images/projetos/bb-abordo/image (${i + 1}).jpg`
+    ),
+  },
+    {
+    slug: "rede-prime",
+    title: "Rede Prime",
+    subtitle: "Desenvolvimento de identidade visual.",
+    year: "2024",
+    client: "Rede Prime",
+    services: ["Identidade Visual"],
+    category: "Branding & Website",
+    cover: "/images/projetos/rede-prime/image (1).jpg",
+    gallery: Array.from(
+      { length: 18 },
+      (_, i) => `/images/projetos/rede-prime/image (${i + 1}).jpg`
     ),
   },
 ];
